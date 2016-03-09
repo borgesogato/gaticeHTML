@@ -9,7 +9,7 @@
 } 
 
 html, body {
-  background-image: url("img/home-bg.jpg");
+  background-image: url("home-bg.jpg");
   background-repeat:no-repeat;
   background-position:top center;
   background-size: 120%;
