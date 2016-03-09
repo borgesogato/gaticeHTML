@@ -1,45 +1,61 @@
 .footer {
-  position: relative;
-  margin-top: -150px; /* negative value of footer height */
-  height: 20%;
+  position: fixed;
+  margin-top: 0px; /* negative value of footer height */
+  margin-bottom: 0px;
   clear:both;
+  bottom: 0;
+  background-color: #ed145a;
+  width: 100%;
 } 
 
 html, body {
+  background-image: url("img/home-bg.jpg");
+  background-repeat:no-repeat;
+  background-position:top center;
+  background-size: 120%;
+  margin: 0;
   height: 100%;
-  background-color: #ed145a;
 }
 
 .btn-primary {
-    background: #ed145a;
-    color: #ffffff;
+  background: #ed145a;
+  color: #ffffff;
 }
 
 .btn-success{
-	background: #7cc576;
-    color: #ffffff;
-
+	background: #ed145a;
+  color: #ffffff;
 }
+
 .btn {
-    padding: 14px 24px;
-    font-weight: 1400;
-    letter-spacing: 1px;
-    text-transform: uppercase;
-    border-style: solid;
-    border-width: 0px 0px 2px 0px;
-    border-color: #ffffff;
-    width: 100%;
-    height: auto;
+  padding: 14px;
+  font-weight: 700;
+  font-size: 150%;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ffffff;
+  width: 100%;
+  height: auto;
 }
  
 .btn:focus, .btn:active:focus, .btn.active:focus {
-    outline: 0 none;
+  outline: 0 none;
+  background: #ed145a;
+  border-style: solid;
+  border-radius: 0px;
+  border-width: 0px 0px 1px 0px;
+  border-color: #ffffff;
 }
 
 .login-background{
 	width: 100%;
-	height:auto;
+  height: 100vh;
 	background-color: #ed145a;
+  padding-bottom: 10%;
+  overflow: hidden;
 }
 
 h3{
@@ -48,7 +64,6 @@ h3{
 }
 a{
 	color: #ffffff;
-	text-align: center;
 	text-decoration: none;
 	width: 100%;
 	height: auto;
@@ -59,7 +74,6 @@ a:visited {
     
 }
 .divText{
-
 	width: 100%;
 	margin: auto;
 	margin-top: 3px;
@@ -76,4 +90,86 @@ a:visited {
 	height: auto;
 	position: absolute;
 	left: 73%;
+}
+
+.logo-main {
+	display: block;
+	margin-left: auto;
+  margin-right: auto;
+  padding-top: 30%;
+  padding-left: 12%;
+  padding-right: 12%; 
+}
+
+.logo-2 {
+  padding: 10%;
+}
+
+.forgot {
+  text-align: center;
+  margin-top: 5%;
+}
+
+.margin {
+  margin-top: 6%;
+}
+
+.home{
+  width: 100%;
+  height: 100vh;
+  background-color: #fff;
+  padding-bottom: 10%;
+  overflow: hidden;
+}
+
+.nav-menu {
+  background-color: #ed145a;
+  padding-left: 0%;
+  padding-top: 0%
+  padding-bottom: 100%;
+  position: static;
+  overflow: hidden;
+}
+
+.logo-3 {
+  height: 70%;
+  width: 70%;
+  padding-left: 20%;
+  padding-top: 25%;
+  padding-bottom: 25%;
+}
+
+.menu-lateral {
+  height: 60%;
+  width: 60%;
+  padding-right: 20%;
+  padding-top: 32%;
+  padding-bottom: 32%;
+}
+
+.titulo {
+  text-align: center;
+  color: #fff;
+  padding-top: 7%;
+}
+
+.gatos1 {
+  padding-top: 15%;
+  padding-left: 10%;
+  padding-right: 0%;
+  padding-bottom: 5%;
+}
+
+.gatos2 {
+  padding-top: 15%;
+  padding-left: 0%;
+  padding-right: 10%;
+  padding-bottom: 5%;
+}
+
+.nome-gato {
+  text-align: center;
+  color: #888888;
+  padding-bottom: 0%;
+  font-size: 130%;
 }
