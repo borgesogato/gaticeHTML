@@ -10,7 +10,6 @@
     <link href="css/bootstrap.min.css" rel="stylesheet">
     <link href="css/main.css" rel="stylesheet">
     <link href="css/style.css" rel="stylesheet">
-    <link type="text/css" rel="stylesheet" href="../../mmenu.css" />
 
 
     <!-- Google Fonts embed code -->
@@ -32,12 +31,12 @@
   <body>
     <main>
 <!-- Tela Inicial -->
-        <section id="cadastrar" class ="collapse">
+        <section id="cadastrar" class="collapse">
           <div><img src="img/logo1.png" class="logo-main img-responsive"/></div>
           <div class="btn-group-vertical footer " role="group" aria-label="..." style="width: 100%;">
             <a class="btn btn-primary btn-lg btn-block" data-toggle="collapse" href="#" role="button" data-target = "#login">LOG IN</a>
 
-            <a class="btn btn-primary btn-lg btn-block" data-toggle="collapse" data-target = "#enroll" href="#" role="button">CADASTRAR</a>
+            <a class="btn btn-primary btn-lg btn-block" data-toggle="collapse" data-target="#enroll" href="#" type="button">CADASTRAR</a>
           </div>
         </section>
 <!-- Log In -->
@@ -57,14 +56,14 @@
               </div>
               <div style="width: 100%;margin-top: 5%;">
                 <div style="margin: 0 auto;width: 50%; ">
-                  <button type="button" class="btn btn-success" data-toggle="collapse" data-target = "#cats">LOG IN</button>
+                  <button type="button" class="btn btn-success" data-toggle="collapse" data-target="#cats">LOG IN</button>
                 </div>
               </div>
            </form>
             <img src="img\botao-entrar-facebook-1e65358dce001d3dd5f5a3474d1abfca.png" class="img-responsive margin center-block">
         </section>
 <!-- Cadastro -->
-        <section id="enroll" class ="collapse login-background">
+        <section id="enroll" class="collapse login-background">
           <img src="img/logo2.png" class="img-responsive logo-2">
            <h3 class="text-center">CADASTRAR</h3>
            <form>
@@ -95,29 +94,83 @@
         <section id="cats" class ="collapse home">
           <div class="row nav-menu">
             <div class="col-xs-3">
-              <a href="#"><img class="logo-3 img-responsive" src="img/logo3.png"></a>
+              <a href="#" data-toggle="collapse" data-target="#cadastrar">
+                <img class="logo-3 img-responsive" src="img/logo3.png" align="left">
+              </a>
             </div>
+
             <div class="col-xs-6 titulo">
               <p class="weight12">MEUS GATOS</p>
             </div>
+
             <div class="col-xs-3">
-              <a href="#"><img class="menu-lateral img-responsive" src="img/menu-3-barras.png" align="right"></a>
+              <a href="#" data-toggle="collapse" data-target="#">
+                <img class="menu-lateral img-responsive" src="img/menu-3-barras.png" align="right">
+              </a>
             </div>
           </div>
 
           <div class="row">
             <div class="col-xs-6">
-              <div class="gatos1"><a href="#"><img class="img-responsive" src="img/borges.png"><h4 class="nome-gato weight6">BORGES</h4></a></div>
+              <a href="#" data-toggle="collapse" data-target="#borges">
+                <div class="gatos1">
+                  <img class="img-responsive" src="img/borges.png">
+                    <h4 class="nome-gato weight6">BORGES</h4>
+                </div>
+              </a>
             </div>
+
             <div class="col-xs-6">
-              <div class="gatos2"><a href="#"><img class="img-responsive" src="img/christie.png"><h4 class="nome-gato weight6">CHRISTIE</h4></a></div>
+              <a href="#" data-toggle="collapse" data-target="#christie">
+                <div class="gatos2">
+                  <img class="img-responsive" src="img/christie.png">
+                    <h4 class="nome-gato weight6">CHRISTIE</h4>
+                </div>
+              </a>
             </div>
+
             <div class="col-xs-6">
-              <div class="gatos1"><a href="#"><img class="img-responsive" src="img/pessoa.png"><h4 class="nome-gato weight6">PESSOA</h4></a></div>
+              <a href="#" data-toggle="collapse" data-target="#pessoa">
+                <div class="gatos1">
+                  <img class="img-responsive" src="img/pessoa.png">
+                    <h4 class="nome-gato weight6">PESSOA</h4>
+                </div>
+              </a>
             </div>
+
             <div class="col-xs-6">
-              <div class="gatos2"><a href="#"><img class="img-responsive" src="img/adicionar.png"><h4 class="nome-gato weight6">ADICIONAR</h4></a></div>
+              <a href="#" data-toggle="collapse" data-target="#adicionar">
+                <div class="gatos2">
+                  <img class="img-responsive" src="img/adicionar.png">
+                    <h4 class="nome-gato weight6">ADICIONAR</h4>
+                </div>
+              </a>
             </div>
+          </div>
+        </section>
+
+<!-- Borges -->
+        <section id="borges" class="collapse info">
+          <div class="row nav-menu">
+            <div class="col-xs-3">
+              <a href="#" data-toggle="collapse" data-target="#">
+                <img class="back img-responsive" src="img/voltar.png">
+              </a>
+
+            </div>
+            <div class="col-xs-6 titulo">
+              <p class="weight12">BORGES</p>
+            </div>
+
+            <div class="col-xs-3">
+              <a href="#" data-toggle="collapse" data-target="#">
+                <img class="menu-lateral img-responsive" src="img/menu-3-barras.png" align="right">
+              </a>
+            </div>
+          </div>
+
+          <div class="row">
+
           </div>
         </section>
 <!-- 
