@@ -12,6 +12,10 @@
       	updateCatList(getCatsMock ());
         $('#login').hide();
       });
+
+      $('#borges').on('show.bs.collapse', function () {
+        $('#cats').hide();
+      });
       
    	  $('#enroll').on('show.bs.collapse', function () {
          $('#cadastrar').hide();
