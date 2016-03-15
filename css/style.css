@@ -30,12 +30,12 @@ p.weight3 {
 	 line-height: 30px;
 }
 
-p.weight4 {
+.weight4 {
 	 font-family: "Roboto";
 	 font-weight: 300;
 	 font-style: normal;
-	 font-size: 36px;
-	 line-height: 30px;
+	 font-size: 2vh;
+	 line-height: 1vh;
 }
 
 p.weight5 {
@@ -62,12 +62,12 @@ p.weight7 {
 	 line-height: 30px;
 }
 
-p.weight8 {
+.weight8 {
 	 font-family: "Roboto";
 	 font-weight: 500;
 	 font-style: normal;
-	 font-size: 36px;
-	 line-height: 30px;
+	 font-size: 3vh;
+	 line-height: 2vh;
 }
 
 p.weight9 {
